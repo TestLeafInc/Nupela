@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Nupela" parallel="classes" thread-count="5">
+	<listeners>
+		<listener class-name="listeners.TestNgListeners"></listener>
+	</listeners>
+	<test name="Test">
+		<classes>
+			<class name="tests.TC001_CreateLead" />
+			<class name="tests.TC002_DeleteLead" />
+			<class name="tests.TC003_MergeLead" />
+			<class name="tests.TC004_EditLead" />
+			<class name="tests.TC005_DuplicateLead" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

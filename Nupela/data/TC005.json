@@ -1,0 +1,14 @@
+{
+  "dataSet": [
+    {
+      "username": "DemoSalesManager",
+      "password": "crmsfa",
+      "fName"	: "Babu"      
+    },
+    {
+      "username": "DemoSalesManager",
+      "password": "crmsfa",
+      "fName"	: "Gopi"      
+    }
+  ]
+}
